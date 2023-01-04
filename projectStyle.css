@@ -1,0 +1,173 @@
+body {
+    background-color: #191919;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    margin: 30px 60px 0;
+}
+
+.nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#name {
+    float: right;
+    font-size: 30px;
+}
+
+#nav-left {
+    float: left;
+}
+
+.aboutImg {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
+.about {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.aboutDetails {
+    margin-left: 80px;
+    display: flex;
+    width: 800px;
+    color: white;
+    flex-direction: column;
+}
+
+.aboutDetails h2 {
+    color: white;
+}
+
+.linkedin-div {
+    text-align: start;
+}
+
+.linkedinImg {
+    height: 30px;
+    width: 30px;
+    border-radius: 30%;
+    vertical-align: middle;
+}
+
+h4 {
+    display: inline-block;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+
+.contactDetails {
+    margin-left: 150px;
+}
+
+.contactDetails a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.contact-from {
+    width: 600px;
+}
+
+.contact {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+.contact-div {
+    width: 90%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=text],
+textarea {
+    width: 600px;
+    height: 50px;
+    padding: 12px;
+    border: 1px solid #ff4f5a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #191919;
+    color: #f2f2f2;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+textarea::placeholder {
+    font-weight: lighter;
+    opacity: 0.5;
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+input::placeholder {
+    font-weight: lighter;
+    opacity: 0.5;
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+input[type=submit] {
+    width: 600px;
+    height: 50px;
+    padding: 12px;
+    border: 1px solid #ff4f5a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: #ff4f5a;
+    color: white;
+    font-family: 'Poppins';
+}
+
+input[type=submit]:hover {
+    background-color: rgba(255, 79, 90, 255);
+    opacity: 0.8;
+
+}
+
+label {
+    color: white;
+}
+
+#me {
+    color: #ff4f5a;
+}
+
